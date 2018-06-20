@@ -37,7 +37,7 @@ $( document ).ready(function() {
         		.attr("data-state", "still")
         		.addClass("gifImage");
         		$("#results").append(image);
-        		$("#results").append(rating);
+        		// $("#results").append(rating);
         	}
         	console.log(gif);
 		})
